@@ -17,6 +17,7 @@
     "group:test",
     "group:linters",
     "group:definitelyTyped",
+    "schedule:automergeWeekends"
   ],
   "platformAutomerge": true,
   "packageRules": [
@@ -30,8 +31,8 @@
       "extends": [
         "packages:test",
         "packages:linters",
+        "schedule:monthly"
       ],
-      "schedule": ["before 2pm on the first Saturday of the month"]
     }
   ],
   "schedule": ["before 2pm on Saturday"],
