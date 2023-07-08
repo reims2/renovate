@@ -43,7 +43,7 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
-  ]
+  ],
   "schedule": ["before 2pm on Saturday"],
   "timezone": "Europe/Berlin",
   "npm": {
