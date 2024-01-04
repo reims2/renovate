@@ -33,7 +33,7 @@
         "packages:test",
         "packages:linters",
         "schedule:monthly"
-      ],
+      ]
     }
   ],
   "regexManagers": [
